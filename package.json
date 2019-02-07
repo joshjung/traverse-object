@@ -1,0 +1,32 @@
+{
+  "name": "traverse-object",
+  "author": "Joshua Jung <joshua.p.jung@gmail.com>",
+  "license": "MIT",
+  "description": "Recursively traverse an object tree and callback a function for each property found.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "url": "https://github.com/joshjung/sanitize-object-recursive",
+  "email": "joshua.p.jung@gmail.com",
+  "scripts": {
+    "test": "mocha",
+    "release:major": "npm version major && git push --follow-tags && npm publish",
+    "release:minor": "npm version minor && git push --follow-tags && npm publish",
+    "release:patch": "npm version patch && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshjung/traverse-object.git"
+  },
+  "files": [
+    "src",
+    "test",
+    "index.js"
+  ],
+  "keywords": [
+    "traverse",
+    "sanitize",
+    "object",
+    "recurse",
+    "recursive"
+  ]
+}
